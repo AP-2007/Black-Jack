@@ -2,7 +2,7 @@ import pygame
 import random
 import sys
 
-# ---------- Game Setup ---------
+# ---------- Game Setup --------
 pygame.init()
 WIDTH, HEIGHT = 800, 600
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
@@ -183,5 +183,6 @@ while running:
 
 pygame.quit()
 sys.exit()
+
 
 
