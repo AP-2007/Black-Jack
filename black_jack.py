@@ -9,7 +9,6 @@ screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Blackjack Simulator")
 
 
-
 font = pygame.font.SysFont("arial", 28)
 result_font = pygame.font.SysFont("arial", 40, bold=True)  #result text
 
@@ -183,6 +182,7 @@ while running:
 
 pygame.quit()
 sys.exit()
+
 
 
 
